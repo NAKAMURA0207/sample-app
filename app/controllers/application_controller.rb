@@ -1,5 +1,3 @@
 class ApplicationController < ActionController::Base
-  def hi
-    render html: "Hi"
-  end
+   include SessionsHelper
 end
